@@ -1,0 +1,198 @@
+@import url(http://fonts.googleapis.com/css?family=Playball);
+@import url(http://fonts.googleapis.com/css?family=Lora:400italic);
+@import url(http://fonts.googleapis.com/css?family=Playball);
+img
+{
+    max-width: 100%;
+}
+.container
+{
+    width: 100%;
+}
+.logo-text
+{
+    font-family: 'Playball', cursive;
+    font-size: 45px;
+    color: rgb(75, 204, 116);
+    font-weight: bolder;
+}
+.main1
+{
+	background-image: url(../img/clients-img.jpg);
+	padding-top: 40px;
+	height: 850px;
+}
+.share
+{
+	padding-top: 25px;
+}
+.share li
+{
+    list-style: none;
+    float: left;
+    padding-left: 25px;
+    text-align: center;
+    font-size: 21px;   
+}
+.share img
+{
+    margin-top: 7px;
+}
+.soon
+{
+    font-family: 'Playball', cursive;
+    font-size: 50px;
+    color: darkred;
+    width: 100%;
+    padding-bottom: 30px;
+}
+.main2
+{
+    font-family: 'Lora', serif;
+    font-size: 28px;
+    font-style: italic;
+    padding-top: 30px;
+    background-image: url(../img/pixel_weave.png);
+    padding-bottom: 20px;
+    line-height: 50px;
+    color: darkcyan;
+}
+.one-page 
+{
+    font-style: italic;
+    font-size: 30px;
+    padding-top: 40px;
+    color: #2D3C4D;
+    font-family:  'Lora', serif;
+    font-weight: bold;
+}
+.day,.hr,.min
+{
+    border-right: 2px solid #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: rgb(49, 83, 46);
+    font-size: 35px;
+}
+.sec
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: rgb(49, 83, 46);
+    font-size: 35px;
+}
+.counter1
+{
+    border-top: 2px solid #fff;
+}
+.counter2
+{
+    border-bottom: 2px solid #fff;
+}
+.page li
+{
+    list-style: none;
+    font-size: 17px;
+    padding-top: 35px;
+}
+.page i
+{
+    color: rgb(139, 141, 180);
+    font-size: 26px;
+}
+.page
+{
+    padding-bottom: 35px;
+}
+.tons
+{
+    padding-top: 10px;
+}
+.land
+{
+    color: rgb(53,133,123);
+    font-size: 25px;
+    padding-top: 12px;
+    padding-bottom: 40px;
+}
+.grid
+{
+    overflow: hidden;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    position: relative;
+}
+.icon-box
+{
+    width: 100%;
+    display: table;
+    min-height: 136px;
+    text-align: center;
+}
+.grid1,.grid2,.grid3
+{
+    box-shadow: 5px 5px 2px #eee;
+}
+.grid1:hover i
+{
+    font-size: 8em;
+}
+.grid2:hover i
+{
+    font-size: 8em;
+}
+.grid3:hover i
+{
+    font-size: 8em;
+}
+.grid i
+{
+    font-size: 5em;
+    transition: font-size 0.5s;
+    color: rgb(83,129,138);
+    display: table-cell;
+    vertical-align: middle;
+}
+.grid p
+{
+    color: rgb(81, 83, 105);
+}
+.footer li
+{
+list-style: none;
+}
+.terms td
+{
+    float: left;
+    padding-right: 25px;
+    padding-top: 10px;
+}
+.btn.btn-lg.btn-danger
+{
+    width: 120px;
+}
+.footer
+{
+    background-color: rgb(66, 66, 66);
+    color: white;
+    padding-bottom: 10px;
+}
+.terms a {
+    color: burlywood;
+}
+.copyright
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #eee;
+}
+.copyright a:hover
+{
+    color: rgb(122,69,0);
+    text-decoration: none;
+}
+.footer-text
+{
+    color: rgb(51,156,132);
+    padding-right: 12px;
+}
