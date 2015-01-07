@@ -1,93 +1,165 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-	<title>Awesome</title>
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="css/custom.css">
-	<script type="text/javascript" src="js/jquery.js"></script>
-	<script type="text/javascript" src="js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="js/timer.js"></script>
-</head>
-<body onload="countdown(year,month,day,hour,minute)">
-<div class="wrapper">
-	<div class="container">
-		<div class="row">
-			<div class="main1">
-				<div class="section">
-					<div class="col-md-4 col-md-offset-1 col-xs-12 col-sm-6 col-sm-offset-3 col-lg-4 col-lg-offset-1 logo-text text-center">
-						<i class="fa fa-leaf fa-2x"></i>Awesome
-					</div>
-					<div class="col-md-4 col-md-offset-1 col-xs-8 col-xs-offset-2 col-sm-6 col-sm-offset-3 col-lg-6 share text-center">
-						<ul>
-							<li>
-								<a href="#" data-toggle="tooltip" title="Share in Facebook"><img src="img/facebook.png" alt="Facebook" height="34" width="38"></a>
-							</li>
-							<li>
-								<a href="#" data-toggle="tooltip" title="Share in Pinterest"><img src="img/pinterest.png" alt="Pinterest" height="34" width="38"></a>
-							</li>
-							<li>
-								<a href="#" data-toggle="tooltip" title="Share in Google+"><img src="img/googleplus.png" alt="Google Plus" height="34" width="38"></a>
-							</li>
-							<li>
-								<a href="#" data-toggle="tooltip" title="Share in Twitter"><img src="img/twitter_box.png" alt="Twitter" height="34" width="38"></a>
-							</li>
-							<li>
-								<a href="#" data-toggle="tooltip" title="Share in Youtube"><img src="img/nav-youtube.png" alt="Youtube" height="34" width="38"></a>
-							</li>
-						</ul>
-					</div>
-				</div>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+		<title>Awesome</title>
+		
+		<!-- css -->
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+		<!--  google fonts  -->
+		<link href='http://fonts.googleapis.com/css?family=Oswald:400,300' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Merienda+One' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,300' rel='stylesheet' type='text/css'>
 
-				<div class="section">
-					<div class="col-md-12 col-xs-12 col-sm-12 col-lg-12 text-center">
-						<div class="one-page">JUST ANOTHER ONE PAGE TEMPLATE</div>
-						<br/>
-						<div class="soon">
-							Coming soon
+		<link rel="stylesheet" type="text/css" href="css/animate.css">
+		<link rel="stylesheet" type="text/css" href="css/custom.css">
+
+	</head>
+	<body onload="countdown(year,month,day,hour,minute)">
+		<div class="body-wrapper">
+
+			<!--   begin of header section   -->
+			<section class="header" id="overlay-1">
+				<div class="header-wrapper">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-8 col-md-offset-2 text-center">
+								<div class="theme-name">
+									<a href="#" class="title">Awesome</a>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-12 text-center">
+								<div class="header-text">
+									<p class="service-text">our awesome products and services are</p>
+									<p class="coming">coming soon</p>
+								</div>
+							</div>
+						</div>
+
+						<!--  begin of counter  -->
+
+						<div class="row">
+							<div class="col-md-12">
+								<div class="numbers" id="count2"></div>
+							</div>
+							<div class="col-md-12 counter1 text-center" id="spacer1">
+								<div class="col-md-4 col-xs-3 col-sm-4 day numbers" id="dday"></div>
+								<div class="col-md-2 col-xs-3 col-sm-2 hr numbers" id="dhour"></div>
+								<div class="col-md-2 col-xs-3 col-sm-2 min numbers" id="dmin"></div>
+								<div class="col-md-4 col-xs-3 col-sm-4 sec numbers" id="dsec"></div>
+							</div>
+							<div class="col-md-12 counter2 text-center" id="spacer2">
+								<div class="col-md-4 col-xs-3 col-sm-4 day title" id="days">day</div>
+								<div class="col-md-2 col-xs-3 col-sm-2 hr title" id="hours">hr</div>
+								<div class="col-md-2 col-xs-3 col-sm-2 min title" id="minutes">min</div>
+								<div class="col-md-4 col-xs-3 col-sm-4 sec title" id="seconds">sec</div>
+							</div>
+						</div>
+						<!--  end of counter -->
+					</div> <!--  end of .container  -->
+				</div><!-- end of .header-wrapper  -->
+			</section>
+			<!--   end of header section     -->
+
+			<!--   begin of newsletter section  -->
+			<section class="newsletter text-center">
+				<div class="newsletter-wrapper">
+					<div class="container">
+						<div class="row">
+							<h2 class="newsletter-text">subscribe and stay tuned with us</h2>
+							<div class="col-md-8 col-md-offset-2">
+								<form>
+	  								<div class="form-group">
+	    								<div class="input-group">
+	      									<div class="input-group-addon"><i class="fa fa-envelope-o"></i></div>
+	      									<input type="text" class="form-control" placeholder="Enter Your Email Here...">
+	    								</div>
+	    								<button class="subsribe-btn">Subscribe Now</button>
+	  								</div>
+								</form>
+								<p class="spam">
+									<i class="fa fa-bookmark"></i>We'll never spam you.
+								</p>
+							</div>
+						</div>
+					</div><!--  end of .container  -->
+				</div> <!--  end of .newssletter-wrapper  -->
+			</section>
+			<!--   end of newsletter section  -->
+
+			<!--   begin of social-media section  -->
+			<section class="social-media text-center">
+				<div class="social-media-wrapper">
+					<div class="container">
+						<div class="row">
+							<h2 class="social-media-text">get updates from social media</h2>
+							<div class="col-md-8 col-md-offset-2">
+								<div class="social-links">
+									<a target="_blank" href="#" title="Facebook">
+										<i class="fa fa-facebook"></i>
+									</a>
+									<a target="_blank" href="#" title="Twitter">
+										<i class="fa fa-twitter"></i>
+									</a>
+									<a target="_blank" href="#" title="Google+">
+										<i class="fa fa-google-plus"></i>
+									</a>
+									<a target="_blank" href="#" title="Pinterest">
+										<i class="fa fa-pinterest"></i>
+									</a>
+									<a target="_blank" href="" title="Instagram">
+										<i class="fa fa-instagram"></i>
+									</a>
+								</div>
+							</div>
+							<div class="clear-fix"></div>
 						</div>
 					</div>
-				</div>
+				</div><!--  end of .social-media-wrapper  -->
+			</section>
+			<!--   end of social-media section   -->
 
-				<div class="section">
-					<div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 text-center">
-						<div class="numbers" id="count2"></div>
+			<!--   begin of footer  section  -->
+			<section class="footer">
+				<div class="footer-wrapper">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-6">
+								<p class="copy-right text-center">&copy; 2015 Awesome. All rights reserved.</p>
+							</div>
+							<div class="col-md-6">
+								<p class="develop text-center">Developed by <a href="http://themewagon.com">ThemeWagon <sup>TM</sup></a></p>
+							</div>
+						</div>
 					</div>
-					
-					<div class="col-md-12 col-xs-12 col-sm-12 col-lg-12 counter1 text-center" id="spacer1">
-						<div class="col-md-4 col-xs-3 col-sm-4 col-lg-4 day numbers" id="dday"></div>
-						<div class="col-md-2 col-xs-3 col-sm-2 col-lg-2 hr numbers" id="dhour"></div>
-						<div class="col-md-2 col-xs-3 col-sm-2 col-lg-2 min numbers" id="dmin"></div>
-						<div class="col-md-4 col-xs-3 col-sm-4 col-lg-4 sec numbers" id="dsec"></div>
-					</div>
-					<div class="col-md-12 col-xs-12 col-sm-12 col-lg-12 counter2 text-center" id="spacer2">
-						<div class="col-md-4 col-xs-3 col-sm-4 col-lg-4 day title" id="days">day</div>
-						<div class="col-md-2 col-xs-3 col-sm-2 col-lg-2 hr title" id="hours">hr</div>
-						<div class="col-md-2 col-xs-3 col-sm-2 col-lg-2 min title" id="minutes">min</div>
-						<div class="col-md-4 col-xs-3 col-sm-4 col-lg-4 sec title" id="seconds">sec</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-md-12 col-lg-12 col-xs-12 col-sm-12 main2">
-				<div class="col-md-6 col-md-offset-3 col-lg-8 col-lg-offset-2 col-sm-12 col-xs-12 text-center">
-					Our website is under construction. We`ll be here soon with our new awesome site, subscribe to be notified.
-				</div>
-			</div>
-		</div>
-		<div class="row">
-			<div class="copyright col-md-12 col-xs-12 col-sm-12 col-lg-12 text-center">
-				<span class="footer-text">&copy;copyright,2014</span><a href ="#">www.technextit.com</a>
-			</div>
+				</div><!--  end of .footer-wrapper  -->
+			</section>
+			<!--   end of footer section  -->
 		</div>
 		
-	</div>
-</div>
+		<!--  js files -->
+
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-55162400-1', 'auto');
+		  ga('send', 'pageview');
+
+		</script>
+
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/timer.js"></script>
+		<script type="text/javascript" src="js/script.js"></script>
 	
-</body>
+	</body>
 </html>

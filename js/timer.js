@@ -10,7 +10,7 @@ time zone offset.
 */
 
 var current="Winter is here!";   //-->enter what you want the script to display when the target date and time are reached, limit to 20 characters
-var year=2015;    //-->Enter the count down target date YEAR
+var year=2016;    //-->Enter the count down target date YEAR
 var month=1;      //-->Enter the count down target date MONTH
 var day=1;       //-->Enter the count down target date DAY
 var hour=12;      //-->Enter the count down target date HOUR (24 hour clock)
